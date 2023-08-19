@@ -1,0 +1,89 @@
+.bg_image{
+    /* position: absolute; */
+   
+}
+body{
+    margin: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-repeat: no-repeat;
+    background-size: 100% 400px; */
+
+    
+}
+
+h1{
+    color: rgb(248, 247, 247);
+    margin-left: 40%;
+    border: 2px black solid;
+    margin-top: -17%;
+    font-size: 38px;
+  
+}
+
+.button{
+    margin-left: 40%;
+
+
+
+}
+.text{
+    border-radius: 30px;
+    height: 30px;
+    width: 35%;
+}
+.btn{
+    position: absolute;
+    height: 35px;
+    width: 47px;
+    margin-top: 1px;
+    margin-left: -30px;
+    border-radius: 30px;
+    background-color: #F7BE3B;
+    color: black;
+    
+}
+
+.space{
+   
+    height: 20px;
+    padding: 100px;
+
+}
+
+.para{
+    text-align: center;
+    font-size: 23px;
+}
+.item{
+    display: inline-block;
+    border: 1px grey solid;
+    width: 20%;
+    border-radius: 20px;
+    padding: 15px 3px;
+    text-align: left;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.tick{
+    float: right;
+
+}
+
+.last{
+    background-color:#F7BE3B;
+    text-align: center;
+    margin:30px 45% ; 
+    /* height: 30px; */
+    font-size: 20px;
+    border-radius: 20px;
+    padding:10px; 
+    border: none;
+}
+
+
+input:focus {
+    outline: none;
+  }
